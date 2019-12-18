@@ -12,11 +12,11 @@ public class Consonant {
                     || cn == 'N' || cn == 'P' || cn == 'Q' || cn == 'R' || cn == 'S' || cn == 'T' || cn == 'V' || cn == 'W' || cn == 'X'
                     || cn == 'Y' || cn == 'Z') {
                 i = 1;
-                System.out.println(cn);
+                System.out.println(cn); // print output if consonant exist
             }
         }
         if (i == 0) { // check if there are no consonant 
-            System.out.println("There are no consonant in a entered string");
+            System.out.println("There are no consonant in a entered string"); // print output if consonant dont exist
         }
 
     }
