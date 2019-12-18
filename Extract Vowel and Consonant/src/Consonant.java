@@ -4,7 +4,7 @@ public class Consonant {
     static void consonant(String str) { //pass the string through String str
         char cn; //declare a string
         int i = 0;
-        for (int j = 0; j < str.length(); j++) { //check whether the sentence is a consonant 
+        for (int j = 0; j < str.length(); j++) { //check whether the sentence consist consonant 
             cn = str.charAt(j);
             if (cn == 'b' || cn == 'c' || cn == 'd' || cn == 'f' || cn == 'g' || cn == 'h' || cn == 'j' || cn == 'k' || cn == 'l' || cn == 'm'
                     || cn == 'n' || cn == 'p' || cn == 'q' || cn == 'r' || cn == 's' || cn == 't' || cn == 'v' || cn == 'w' || cn == 'x'
