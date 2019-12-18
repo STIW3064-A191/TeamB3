@@ -1,10 +1,10 @@
 
 public class Consonant {
 
-    static void consonant(String str) {
-        char cn;
+    static void consonant(String str) { //pass the string through String str
+        char cn; //declare a string
         int i = 0;
-        for (int j = 0; j < str.length(); j++) {
+        for (int j = 0; j < str.length(); j++) { //check whether the sentence is a consonant 
             cn = str.charAt(j);
             if (cn == 'b' || cn == 'c' || cn == 'd' || cn == 'f' || cn == 'g' || cn == 'h' || cn == 'j' || cn == 'k' || cn == 'l' || cn == 'm'
                     || cn == 'n' || cn == 'p' || cn == 'q' || cn == 'r' || cn == 's' || cn == 't' || cn == 'v' || cn == 'w' || cn == 'x'
@@ -15,7 +15,7 @@ public class Consonant {
                 System.out.println(cn);
             }
         }
-        if (i == 0) {
+        if (i == 0) { // check if there are no consonant 
             System.out.println("There are no consonant in a entered string");
         }
 
